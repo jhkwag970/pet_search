@@ -1,0 +1,24 @@
+@charset "EUC-KR";
+
+thead th {
+	background-color: #8EC0E4;
+	color : white;
+}
+
+.vertical-alignment-helper {
+	display: table;
+	height: 100%
+	width: 100%
+	pointer-event:none;
+}
+.vertical-align-center{
+	display:table-cell;
+	vertical-align: middle;
+	pointer-event: none;
+}
+.modal-content{
+	width: inherit;
+	height: inherit;
+	margin: 0 auto;
+	pointer-events: none;
+}
